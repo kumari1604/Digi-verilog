@@ -14,6 +14,7 @@ module tb_halfadder();
 reg a,b;
 wire sum,carry;
 halfadder uut(.a(a),.b(b),.sum(sum),.carry(carry));
+  //input test cases for a and b
 initial begin
 $monitor(" time=%0t,a=%d,b=%d,sum=%d,carry=%d",$time,a,b,sum,carry);
 a=0;b=0;
