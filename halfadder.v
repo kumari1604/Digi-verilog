@@ -7,3 +7,7 @@ output carry);
 assign sum = a^b;
 assign carry = a&b;
 endmodule
+
+
+
+\testbench
